@@ -382,7 +382,7 @@ root.mainloop()
 > Now add `top.grab_set()` after the `Toplevel` creation and repeat.
 > Describe the difference.
 
-> *Your answer:*
+> *Your answer:*   Without grab_set(), the main window remains active and the user can interact with it while the dialog is still open. This can lead to unexpected behavior because the dialog can be ignored. With grab_set(), the dialog becomes modal. The user must close or confirm the dialog before interacting with the main window, which ensures a controlled workflow.
 
 ### Step 3 – Commit
 
