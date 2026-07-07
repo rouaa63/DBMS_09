@@ -103,6 +103,8 @@ python3 --version
 > **Screenshot 2:** Take a screenshot showing the version outputs of `uv` and `python3`.
 >
 > `[insert screenshot]`
+> <img width="466" height="134" alt="dbms9_2" src="https://github.com/user-attachments/assets/70dd2076-1d98-4e9e-a056-78d35029afd3" />
+
 
 ---
 
