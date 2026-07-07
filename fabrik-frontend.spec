@@ -2,9 +2,9 @@
 
 
 a = Analysis(
-    ['src/fabrik_frontend/__main__.py'],
+    ['src\\fabrik_frontend\\__main__.py'],
     pathex=[],
-    binaries=[('/home/rouaa/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/libtcl9.0.so', '.'), ('/home/rouaa/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/libtcl9tk9.0.so', '.')],
+    binaries=[],
     datas=[],
     hiddenimports=[],
     hookspath=[],
