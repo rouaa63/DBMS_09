@@ -274,7 +274,8 @@ for p in parts:
 
 > **Screenshot 4:** Take a screenshot showing the parts list printed in the Python REPL.
 >
-> `[insert screenshot]`
+> <img width="779" height="298" alt="dbms9_4" src="https://github.com/user-attachments/assets/ac1217fa-dc7a-45fb-bb8a-1940ceed838f" />
+
 
 Exit with `exit()`.
 
