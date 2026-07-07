@@ -1056,11 +1056,11 @@ git push
 
 **Question 8.1:** PyInstaller bundles a complete Python interpreter into `_internal/`. What is the typical size of a PyInstaller `--onedir` output compared to a minimal Python installation, and why is `--onedir` generally preferred over `--onefile` for desktop applications?
 
-> *Your answer:*
+> *Your answer:*   A typical PyInstaller output is much larger than a minimal Python installation because it includes the Python interpreter, required libraries, and all application dependencies. A --onedir build can be hundreds of megabytes, but it allows the application to run without installing Python separately. It is preferred for desktop applications because users can run the program directly without configuring a Python environment.
 
 **Question 8.2:** A `.deb` package installed via `dpkg -i` does not appear in the system package manager's update mechanism. Which tool and repository format would you use to distribute updates automatically to Debian/Ubuntu users?
 
-> *Your answer:*
+> *Your answer:*   To distribute automatic updates for Debian/Ubuntu users, I would create a Debian package repository and use tools like apt with a signed .deb repository. Instead of installing manually with dpkg -i, users can receive updates automatically through the system package manager.
 
 ---
 
@@ -1069,22 +1069,22 @@ git push
 **Question A – Separation of Concerns:**  
 `api.py` contains all HTTP logic; `ui.py` contains all widget code; `__main__.py` wires them together. Name one concrete benefit this separation provides when you want to write automated tests for the API client.
 
-> *Your answer:*
+> *Your answer:*   api.py contains the HTTP logic, ui.py contains the widget code, and __main__.py connects them together. This separation makes automated testing easier because the API client can be tested independently without starting the graphical interface.
 
 **Question B – Event-Driven vs Sequential:**  
 A fellow student proposes using a `while True` loop in the main thread to poll the API every 5 seconds and update the display. Explain why this approach would break the tkinter application, and describe the correct alternative.
 
-> *Your answer:*
+> *Your answer:*  A while True loop in the main thread would block Tkinter's event loop and make the user interface freeze because it cannot process user actions or redraw the window. The correct approach is to use Tkinter's event-driven mechanisms such as after() to schedule periodic updates without blocking the main loop.
 
 **Question C – API Key in the Dialog:**  
 The connection dialog collects the API key at runtime and stores it in `api.HEADERS` for the session only. It is never written to disk. What are the security advantages of this approach compared to storing the key in a configuration file in the user's home directory?
 
-> *Your answer:*
+> *Your answer:*  Keeping the API key only in memory during the session prevents the key from being stored permanently on the computer. This reduces the risk that another user or malware can read the key from a configuration file in the user's home directory.
 
 **Question D – The Full Stack:**  
 You have now touched every layer of the system: PostgreSQL database → Docker Compose deployment → FastAPI REST layer → tkinter desktop client → native installer. Describe in one sentence the role of each layer, and explain which layer a new employee would need to understand to add a sixth part to the bill of materials without changing any other layer.
 
-> *Your answer:*
+> *Your answer:*   PostgreSQL stores the data, Docker Compose manages the deployment environment, FastAPI provides the REST API, the tkinter client provides the desktop user interface, and the native installer packages the application for users. A new employee adding a sixth part to the bill of materials would mainly need to understand the database and API layers, because the data model and REST endpoints define how parts are stored and accessed without changing the other layers.
 
 ---
 
