@@ -714,11 +714,13 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
 >
-> `[insert screenshot]`
+> <img width="457" height="188" alt="0bms9_5" src="https://github.com/user-attachments/assets/6937f1bc-3b27-46fc-ab9f-45f06fb3c539" />
+
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
 >
-> `[insert screenshot]`
+> <img width="819" height="551" alt="dbms9_6" src="https://github.com/user-attachments/assets/3ae2573c-19c5-4074-863f-0c97878fb877" />
+
 
 ### Step 4 – Commit
 
