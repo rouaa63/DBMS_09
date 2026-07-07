@@ -714,7 +714,8 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 5:** Take a screenshot of the connection dialog.
 >
-> <img width="457" height="188" alt="0bms9_5" src="https://github.com/user-attachments/assets/6937f1bc-3b27-46fc-ab9f-45f06fb3c539" />
+><img width="419" height="161" alt="dbms9_5 sicher" src="https://github.com/user-attachments/assets/eaf5427e-5ad5-4f0e-8006-3d3371b7f658" />
+
 
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
@@ -755,7 +756,8 @@ In the **Parts** tab, use the *Deliver parts* form:
 
 > **Screenshot 7:** Parts tab after delivering, showing updated stock values.
 >
-> `[insert screenshot]`
+> <img width="821" height="547" alt="dbms9_7" src="https://github.com/user-attachments/assets/f19eb164-038c-43cf-acbb-70587725f2f8" />
+
 
 ### Step 2 – Record a Production Run
 
