@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://128.140.85.215:8888"
 HEADERS = {}
 
 
