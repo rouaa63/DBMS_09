@@ -49,7 +49,8 @@ Open that URL in your browser before writing a single line of code — the Swagg
 
 > **Screenshot 1:** Take a screenshot of the Swagger UI showing the list of available endpoints.
 >
-> `[insert screenshot]`
+> <img width="893" height="513" alt="dbms9_1" src="https://github.com/user-attachments/assets/bfa12c67-2d90-4ab7-bf75-724b516dda69" />
+
 
 ---
 
@@ -179,11 +180,11 @@ git push -u origin main
 
 **Question 1.1:** `uv` creates a `uv.lock` file alongside `pyproject.toml`. What is the difference between the two files? Why should `uv.lock` be committed to version control?
 
-> *Your answer:*
+> *Your answer:*   pyproject.toml defines the project and its dependencies, while uv.lock stores the exact versions of all installed packages. Committing uv.lock ensures that everyone uses the same dependency versions, making the project reproducible and avoiding version conflicts.
 
 **Question 1.2:** `uv run` executes a command inside the project's virtual environment without you having to activate it manually. What problem does this solve compared to relying on the system-wide Python installation?
 
-> *Your answer:*
+> *Your answer:*    uv run automatically uses the project's virtual environment. This avoids conflicts with system-wide Python packages and ensures that the correct dependencies and Python version are used for the project.
 
 ---
 
@@ -289,11 +290,11 @@ git push
 
 **Question 2.1:** `r.raise_for_status()` raises an exception if the server returned a 4xx or 5xx status code. What would happen if this call were omitted and the server returned `409 Conflict`?
 
-> *Your answer:*
+> *Your answer:*   Without r.raise_for_status(), the program would not raise an exception automatically. It would continue running and try to process the error response as if it were successful, which could lead to incorrect behavior or runtime errors.
 
 **Question 2.2:** `BASE_URL` and `HEADERS` are module-level variables set at runtime by the connection dialog. Why is this approach preferable to reading them from a configuration file on disk?
 
-> *Your answer:*
+> *Your answer:*   Setting BASE_URL and HEADERS at runtime makes the application more flexible. The user can connect to different servers without changing a configuration file, and sensitive information such as the API key does not need to be stored permanently on disk.
 
 ---
 
