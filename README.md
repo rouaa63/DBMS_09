@@ -163,7 +163,9 @@ uv run python -c "import requests; print('requests', requests.__version__)"
 
 > **Screenshot 3:** Take a screenshot showing the output confirming `requests` is available.
 >
-> `[insert screenshot]`
+> 
+> <img width="1026" height="153" alt="dbms9_3" src="https://github.com/user-attachments/assets/fbdec715-47a8-47eb-ac5e-c7602384369c" />
+
 
 ### Step 5 – Commit
 
