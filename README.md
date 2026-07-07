@@ -734,11 +734,11 @@ git push
 
 **Question 4.1:** The `_refresh_all()` method is called in `__init__` and makes three HTTP requests before `mainloop()` starts. In what scenario could this block the UI from appearing? How would you fix it?
 
-> *Your answer:*
+> *Your answer:*   The method _refresh_all() is called inside __init__() before mainloop() starts. If the API server is unavailable or the HTTP requests take a long time, the application can be blocked before the main window is displayed. A possible solution is to run the HTTP requests in a separate thread or load the data after the GUI has already started.
 
 **Question 4.2:** When `api.post_produktion()` raises an exception (e.g. `409 Conflict` due to insufficient parts), `messagebox.showerror` displays the error to the user. Look at the `requests` library documentation: what type of exception does `raise_for_status()` raise, and what attribute contains the server's response body?
 
-> *Your answer:*
+> *Your answer:*   requests.raise_for_status() raises a requests.exceptions.HTTPError exception when the server returns an error status code such as 409 Conflict. The response body can be accessed through the exception attribute e.response. The content can be read using e.response.text or e.response.json().
 
 ---
 
