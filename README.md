@@ -870,11 +870,11 @@ git push
 
 **Question 6.1:** A `.whl` file still requires Python to be installed on the target machine. What problem does PyInstaller solve that `uv build` does not?
 
-> *Your answer:*
+> *Your answer:*  PyInstaller creates a standalone executable that includes the Python interpreter and required dependencies. This means the target machine does not need a separate Python installation. A wheel file only packages the Python project and still requires Python to be installed on the target machine.
 
 **Question 6.2:** `[project.scripts]` defines `fabrik-frontend = "fabrik_frontend.__main__:main"`. Explain what happens when a user runs the command `fabrik-frontend` in their terminal after installing the wheel.
 
-> *Your answer:*
+> *Your answer:*  The [project.scripts] section creates a command-line entry point. When the user runs "fabrik-frontend" in the terminal, Python calls the main() function from fabrik_frontend.__main__.py. This starts the application without requiring the user to run "python -m fabrik_frontend".
 
 ---
 
