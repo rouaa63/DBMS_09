@@ -720,7 +720,7 @@ The connection dialog should appear. Enter the base URL (`http://128.140.85.215:
 
 > **Screenshot 6:** Take a screenshot of the main window showing the Parts tab populated with data from the live server.
 >
-> <img width="819" height="551" alt="dbms9_6" src="https://github.com/user-attachments/assets/3ae2573c-19c5-4074-863f-0c97878fb877" />
+> <img width="820" height="533" alt="dbms9_6" src="https://github.com/user-attachments/assets/98e061ee-2b92-4d81-bbca-7f5ad7726357" />
 
 
 ### Step 4 – Commit
@@ -756,7 +756,8 @@ In the **Parts** tab, use the *Deliver parts* form:
 
 > **Screenshot 7:** Parts tab after delivering, showing updated stock values.
 >
-> <img width="821" height="547" alt="dbms9_7" src="https://github.com/user-attachments/assets/f19eb164-038c-43cf-acbb-70587725f2f8" />
+> <img width="819" height="541" alt="dbms9_7" src="https://github.com/user-attachments/assets/864af7fb-68b9-435a-af38-1041ced43b85" />
+
 
 
 ### Step 2 – Record a Production Run
@@ -769,7 +770,8 @@ In the **Products** tab, use the *Record production run* form:
 
 > **Screenshot 8:** Parts tab after production, showing reduced stock.
 >
-> `[insert screenshot]`
+> <img width="820" height="544" alt="dbms9_8" src="https://github.com/user-attachments/assets/6be81cb1-f3f6-4c58-b128-6168e3d6492d" />
+
 
 ### Step 3 – Check the Bill of Materials
 
@@ -777,7 +779,8 @@ Switch to the **Bill of Materials** tab. Enter Product ID `2` (Racing bike frame
 
 > **Screenshot 9:** Bill of Materials tab showing all five parts for the racing bike frame.
 >
-> `[insert screenshot]`
+> <img width="807" height="543" alt="dbms9_9" src="https://github.com/user-attachments/assets/db094845-94e0-4a8a-938e-5e43db53e1c3" />
+
 
 ### Step 4 – Check Out a Finished Product
 
@@ -787,7 +790,8 @@ In the **Products** tab, use the *Check out from warehouse* form:
 
 > **Screenshot 10:** Products tab after checkout, showing `Total out` incremented by 1.
 >
-> `[insert screenshot]`
+> <img width="813" height="547" alt="dbms9_10" src="https://github.com/user-attachments/assets/b0c63ff8-7be0-4482-bd31-ae317da3f27d" />
+
 
 ### Step 5 – Trigger a Reorder Warning
 
@@ -795,7 +799,8 @@ Deliver only 1 steel tube (Part ID `1`) to bring stock very low, then produce 1 
 
 > **Screenshot 11:** Reorder Warnings tab showing at least one warning entry.
 >
-> `[insert screenshot]`
+> <img width="819" height="540" alt="dbms9_11" src="https://github.com/user-attachments/assets/040e1cd0-086d-4b5b-a6d1-c44e23afc60d" />
+
 
 ### Step 6 – Stocktake Correction
 
@@ -854,7 +859,8 @@ fabrik-frontend
 
 > **Screenshot 12:** Terminal showing `ls dist/` with both distribution files.
 >
-> `[insert screenshot]`
+> <img width="558" height="40" alt="dbms9_12" src="https://github.com/user-attachments/assets/b5917cea-2a23-4b93-95ce-c5d82c1673c6" />
+
 
 ### Step 2 – Commit
 
@@ -925,7 +931,8 @@ On Windows: `fabrik-frontend.exe` instead.
 
 > **Screenshot 13:** The application running from the PyInstaller-built executable.
 >
-> `[insert screenshot]`
+> <img width="820" height="541" alt="dbms9_13" src="https://github.com/user-attachments/assets/f871fc83-fba2-4f72-9891-ee29fe11f45d" />
+
 
 > **Note:** PyInstaller builds are platform-specific. A build on Linux produces a Linux binary only. To distribute for all three platforms you need to build once on each operating system (or use a CI/CD pipeline).
 
@@ -1009,7 +1016,8 @@ Result: `fabrik-frontend-setup-0.1.0.exe` — a standard Windows installation wi
 
 > **Screenshot 15 (Windows only):** The Inno Setup installer wizard running.
 >
-> `[insert screenshot]`
+> <img width="638" height="489" alt="dbms9_15" src="https://github.com/user-attachments/assets/8c65dacd-8bd8-44df-8fc8-32fbdc83c90d" />
+
 
 ---
 
