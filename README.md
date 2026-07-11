@@ -976,7 +976,8 @@ fabrik-frontend
 
 > **Screenshot 14:** Terminal showing the `.deb` installation and the application launching from `/usr/bin/fabrik-frontend`.
 >
-> `[insert screenshot]`
+> <img width="954" height="918" alt="dbms9_14" src="https://github.com/user-attachments/assets/7cba637d-9937-4817-a0b0-969e6d58895c" />
+
 
 ---
 
